@@ -1,3 +1,15 @@
+.main-title {
+    text-align: center;
+    font-size: 75px;
+    margin: 0;
+}
+
+.sub-title {
+    text-align: center;
+    font-size: 50px;
+    margin: 0;
+}
+
 /* I got the basic of how to make this from W3 schools, but don't know if we should use a lot of their code, idk*/
 .nav-site {
     overflow: hidden;
@@ -7,7 +19,7 @@
     float: left;
     text-align: center;
     text-decoration: none;
-    padding: 20px;
+    background-color: red; /* just to make it easier to see for now */
 }
 
 .productDropdown {
@@ -33,4 +45,16 @@
 
 .productDropdown:hover .products {
     display: block;
+}
+
+.mainpage-title {
+    text-align: center;
+    font-size: 30px
+}
+
+.image-container {
+}
+
+.buy-container {
+    float: right;
 }

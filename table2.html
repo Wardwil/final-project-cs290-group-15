@@ -8,7 +8,7 @@
     <body>
         <header class="header-container"><div>
             <h1 class="main-title">Tables R us</h1>
-            <h2>Tables For Every Occasion!</h2>
+            <h2 class="sub-title">Tables For Every Occasion!</h2>
             <!--Have a potential menu bar here, I was thinking of making the sell part a modal, good idea, bad?-->
             <nav class="nav-site">
                 <a href="Index.html">Home</a>
@@ -26,9 +26,11 @@
         <main>
             <div class="content-container">
                 <h2 class="mainpage-title">Metal Table</h2>
-                <img src="http://placekitten.com/200/300"> <!--Until I can find a decent picture, potentially multiple pictures.-->
+                <div class="image-container">
+                    <img class="product-picture" src="http://placekitten.com/400/600">
+                </div><!--Until I can find a decent picture, potentially multiple pictures.-->
                 <div class="buy-container">
-                    <button>Buy</button>
+                    <button class="buy-button">Buy</button>
                     <div class="buy-name-container">
                         <label for="buyer-name" class="buy-input-field">Name</label>
                         <input type="text" name="buyer-name" class="buyer-input">
@@ -46,8 +48,24 @@
             </div>
             <div class="review-container">
                 <h3>Reviews</h3>
+                <button class="review-button">Make Review</button>
+                <div class="new-review">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" class="name-input">
+                </div>
+                <div>
+                    <label for="review">Review</label>
+                    <input type="text" name="review" class="review-input">
+                </div>
                 <div class="reviews">
-                    <p>Reviews</p>
+                    <div class="review-header">
+                        <p>Reviewer name</p>     
+                        <p>Date of the review, should be on same line as the name</p>
+
+                    </div>
+                    <div class="review-body">
+                        <p>Review body</p>
+                    </div>
                 </div>
             </div>
         </main>
